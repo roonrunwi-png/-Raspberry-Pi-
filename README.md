@@ -29,7 +29,7 @@ VENDOR_PREFIX = b"\xfa\x0b"  # ตัวอย่าง prefix ของ vendor-
             "vendor_ie": [v.hex() for v in vendor],
         })
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     # เปลี่ยนเป็นอินเทอร์เฟซ monitor mode เช่น wlan0mon
     sniff(iface="wlan0mon", prn=handle, store=False)
 sudo airmon-ng check kill
