@@ -4,7 +4,7 @@
     # drone_rid_sniffer.py
     from scapy.all import sniff, Dot11Beacon, Dot11EltVendorSpecific
 
-VENDOR_PREFIX = b"\xfa\x0b"  # ตัวอย่าง prefix ของ vendor-specific IE; ต้องตรวจกับมาตรฐาน/ผู้ผลิตจริง
+<VENDOR_PREFIX> = b"\xfa\x0b"  # ตัวอย่าง prefix ของ vendor-specific IE; ต้องตรวจกับมาตรฐาน/ผู้ผลิตจริง
 
     def handle(pkt):main
     if not pkt.haslayer(Dot11Beacon):
