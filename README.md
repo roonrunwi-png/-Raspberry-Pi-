@@ -1,7 +1,7 @@
 
     # -Raspberry-Pi-sudo apt install python3-pip--run
     -git install
-    sudo pip3 install scapy
+    sudo pip3 install scapy-run
     # drone_rid_sniffer.py
     from scapy.all import sniff, Dot11Beacon, Dot11EltVendorSpecific
 
