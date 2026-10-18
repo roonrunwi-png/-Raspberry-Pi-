@@ -1,7 +1,7 @@
     # -Raspberry-Pi-sudo apt install python3-pip
     sudo pip3 install scapy
-# drone_rid_sniffer.py
-from scapy.all import sniff, Dot11Beacon, Dot11EltVendorSpecific
+    # drone_rid_sniffer.py
+    from scapy.all import sniff, Dot11Beacon, Dot11EltVendorSpecific
 
 VENDOR_PREFIX = b"\xfa\x0b"  # ตัวอย่าง prefix ของ vendor-specific IE; ต้องตรวจกับมาตรฐาน/ผู้ผลิตจริง
 
