@@ -1,5 +1,5 @@
 
-    # -Raspberry-Pi-sudo apt install python3-pip
+    # -Raspberry-Pi-sudo apt install python3-pip--run
     -git install
     sudo pip3 install scapy
     # drone_rid_sniffer.py
