@@ -32,3 +32,6 @@ def handle(pkt):
 if __name__ == "__main__":
     # เปลี่ยนเป็นอินเทอร์เฟซ monitor mode เช่น wlan0mon
     sniff(iface="wlan0mon", prn=handle, store=False)
+sudo airmon-ng check kill
+sudo airmon-ng start wlan0
+sudo python3 drone_rid_sniffer.py
