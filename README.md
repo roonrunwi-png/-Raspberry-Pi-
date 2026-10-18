@@ -1,3 +1,4 @@
+
     # -Raspberry-Pi-sudo apt install python3-pip
     -git install
     sudo pip3 install scapy
@@ -36,3 +37,4 @@
     sudo airmon-ng check kill
     sudo airmon-ng start wlan0
     sudo python3 drone_rid_sniffer.py
+    build git 
