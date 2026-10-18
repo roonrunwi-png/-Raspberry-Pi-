@@ -5,7 +5,7 @@
 
 VENDOR_PREFIX = b"\xfa\x0b"  # ตัวอย่าง prefix ของ vendor-specific IE; ต้องตรวจกับมาตรฐาน/ผู้ผลิตจริง
 
-    def handle(pkt):
+    def handle(pkt):main
     if not pkt.haslayer(Dot11Beacon):
         return
 
